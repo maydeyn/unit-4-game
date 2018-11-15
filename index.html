@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+</head>
+<body>
+    <div class="container">
+    <h1>Goal: <span id="goal"></span></h1>
+    </div>
+
+    <div class="container">
+    <button type="button" class="btn btn-light">
+        <img src="assets/images/blue.png" class="crystalImage" id="blue">
+    </button>
+
+    <button type="button" class="btn btn-light">
+        <img src="assets/images/red.png" class="crystalImage" id="red">
+    </button>
+
+    <button type="button" class="btn btn-light">
+        <img src="assets/images/green.png" class="crystalImage" id="green">
+    </button>
+
+    <button type="button" class="btn btn-light">
+        <img src="assets/images/yellow.png" class="crystalImage" id="yellow">
+    </button>
+    </div>
+
+    <div class="container">
+        <h2>Total Score: <span id="totalScore"></span></h2>
+    </div>
+
+    <div class="container">
+        Wins: <span id="wins"></span>
+        <br>
+        Losses: <span id="losses"></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
+
