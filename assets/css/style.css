@@ -1,0 +1,28 @@
+
+body {
+    background-image: url("../images/crystalbackground.jpg");
+    background-position: absolute;
+
+    height: 100%;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+} 
+
+.container {
+    text-align: center;
+    padding: 20px;
+    color: lavender;
+    position: relative;
+    z-index: 100;
+}
+
+h1 {
+    padding-top: 40px; 
+    color: aliceblue;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+}

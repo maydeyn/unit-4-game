@@ -33,7 +33,7 @@ function restart (){
 function winsCount () {
     wins++;
     alert("You Win!");
-    $("#win").text(wins);
+    $("#wins").text(wins);
     restart();
 }
 
