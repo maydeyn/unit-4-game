@@ -26,7 +26,6 @@ function restart (){
     var blue = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
     var yellow = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
     totalScore = 0;
-<<<<<<< HEAD
 }
 
 // announce win
@@ -43,9 +42,6 @@ function lossesCount () {
     alert("You Lose!");
     $("#losses").text(losses);
     restart();
-=======
-    $('#totalScore').text(totalScore);
->>>>>>> fc264a5ea3cd57d3f963b02116d8288785b8558f
 }
 
 $("#green").on("click", function (){
@@ -120,7 +116,7 @@ function lossesCount() {
 
 }
 
-})
+});
 
 console.log(totalScore);
 console.log(losses);
